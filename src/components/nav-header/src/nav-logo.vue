@@ -7,10 +7,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, toRefs, computed } from 'vue'
-import { useRouter } from 'vue-router'
 import { useStore } from '@/store'
-
-import { LStorage } from '@/utils/wystorage'
 
 export default defineComponent({
   setup() {
@@ -23,16 +20,9 @@ export default defineComponent({
 
     const { logoUrl } = toRefs(state)
 
-    const router = useRouter()
-    /* const handleExitClick = () => {
-      LStorage.delete('token')
-      router.push('/login')
-    } */
-
     return {
       name,
       logoUrl
-      // handleExitClick
     }
   }
 })

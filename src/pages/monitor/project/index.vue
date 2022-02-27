@@ -52,7 +52,7 @@ export default defineComponent({
 
     const [pageContentRef, handleResetClick, handleQueryClick] = usePageSearch()
 
-    const editCallback = (item: any) => {
+    const editCallback = (/* item: any */) => {
       // console.log('item --- ', item)
     }
 

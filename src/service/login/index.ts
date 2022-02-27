@@ -1,6 +1,5 @@
 import request from '../'
 import { IAccount, ILoginResult, IUserInfo, IUserMenu } from './type'
-import { IDataType } from '../types'
 
 enum LoginApi {
   AccountLogin = '/login',

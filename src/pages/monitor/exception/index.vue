@@ -15,7 +15,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, reactive } from 'vue'
+import { computed, defineComponent } from 'vue'
 import { useStore } from '@/store'
 
 import PageSearch from '@/components/page-search'

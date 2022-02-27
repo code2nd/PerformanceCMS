@@ -2,7 +2,7 @@ import { Module } from 'vuex'
 import { Md5 } from 'ts-md5/dist/md5'
 
 import { IManageState } from './type'
-import { IRootState, IStoreType } from '../types'
+import { IRootState } from '../types'
 import {
   getPageListData,
   updatePageData,

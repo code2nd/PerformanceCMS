@@ -1,4 +1,3 @@
-import { RouteRecordRaw } from 'vue-router'
 import { IUserMenu, IRouteRecord } from '../service/login/type'
 
 let firstMenu = '/home'
