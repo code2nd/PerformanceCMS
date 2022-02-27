@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# npm test 如果有测试用例的话，可以执行这个
+
+# 修改为执行lint
+yarn lint
